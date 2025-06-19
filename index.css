@@ -1,0 +1,93 @@
+/*A property of Saksham Dwivedi*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #fff;
+    background-image: url(bat.jpeg);
+    background-repeat: repeat;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: #ddd;
+}
+
+section {
+    padding: 2em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    margin-bottom: 1em;
+    color: #fff;
+    text-align: center;
+}
+
+#about p {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+}
+
+.project-card {
+    background-color: #222;
+    padding: 4em;
+    border: 4px solid #000;
+    border-radius: 5px;
+    width: calc(80% - 20px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#contact input, #contact textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#contact button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #ff6e00;
+}
+/*A property of Saksham Dwivedi*/
