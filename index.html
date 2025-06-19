@@ -1,0 +1,64 @@
+<!--A property of Saksham Dwivedi-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saksham_Dwivedi_Portfolio_forCSI</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div class="bgImage">
+        <h1></h1>
+    </div>
+    <header>
+        <h1>Saksham Dwivedi</h1>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi! I am Saksham Dwivedi. I am a 1st year student of CSE. I am a Game Developer, 3D Artist and I am experienced with UNITY, BLENDER, UNREAL ENGINE 5, C#, Python, C, HTML, CSS, JavaScript, SQL and Php.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="projects">
+            <div class="project-card">
+                <h3>VOSK</h3>
+                <img src="vosk.png" style="width: 400px;height: 250px;">
+                <p>This is a video game I worked on with a team of 5 people. This was a horror game called VOSK which was set Dalhousie in modern India.</p>
+            </div>
+            <div class="project-card">
+                <h3>Square Root of 69 upto a million Digits</h3>
+                <img src="69.png" style="width: 400px; height: 250px;">
+                <p>This is a book I wrote, this book comprises the square root of 69 upto a million digits. Those million digits were calculated using python.</p>
+            </div>
+            <div class="project-card">
+                <h3>Centriball RSD</h3>
+                <img src="machine.png" style="width: 400px; height: 250px;">
+                <p>This is a machine I designed, this simulates the gravity of different planets using centrifugal force and simulates conditions using pressure and gas controller.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form" onsubmit="sendEmail();">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <script src="index.js" class="index"></script>
+    <script src="https://smtpjs.com/v3/smtp.js" class="smtp"></script>
+</body>
+</html>
+<!--A property of Saksham Dwivedi-->
